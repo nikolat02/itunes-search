@@ -1,0 +1,38 @@
+<html>
+<head>
+  <title>iTunes</title>
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
+  <script src="iTunes.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="form-inline">
+        <div class="form-group">
+          <label for="search-term">Item to search for</label>
+          <input id="search-term" class="form-control" type="text"></input>
+        </div>
+        <select id="search-media">
+          <option value="movie">Movie</option>
+          <option value="podcast">Podcast</option>
+          <option value="music">Music</option>
+          <option value="musicVideo">Music Video</option>
+          <option value="audiobook">Audiobook</option>
+          <option value="shortFilm">Short Film</option>
+          <option value="tvShow">TV Show</option>
+          <option value="software">Software</option>
+          <option value="ebook">eBook</option>
+          <option value="all">All</option>
+        </select>
+        <button id="search-start" class="btn btn-default">Search</button>
+      </div>
+    </div>
+    <div class="row">
+      <div id="results"></div>
+    </div>
+  </div>
+</body>
+</html>
