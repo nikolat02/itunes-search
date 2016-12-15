@@ -60,7 +60,6 @@ function parseResults(result) {
         					};
 
         					html += '<div class="songs-search-result">';
-
         					html += '<p><strong>Track: </strong>{0}&nbsp;&nbsp;'.replace("{0}", obj.track_name);
         					html += '<a href="{0}" target="_blank">Preview</a>&nbsp;&nbsp;'.replace("{0}", item.previewUrl);
         					html += '<a href="{0}" target="_blank">Full Song</a>&nbsp;&nbsp;</p>'.replace("{0}", obj.track_url);
